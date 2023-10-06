@@ -11,14 +11,14 @@ assignees: ''
 
 Bot ID:    
 
-To obtain this:
-
-Open the chat relevant to the bot you feel should be reported. After this, navigate to the top right of the screen, Tap on the Three Dots, Tap "Share", and copy the link.
+To obtain this, open the chat relevant to the bot you feel should be reported. 
+After this, navigate to the top right of the screen, Tap on the Three Dots, Tap "Share", and copy the link.
 Example: chai.ml/chat/share/_bot_1122334455...
 
 Bot Creator Name:    
 
-Please provide a brief description for reporting if necessary: 
+
+Please provide a brief description of how this is in violation if necessary: 
 
 
 
