@@ -31,7 +31,7 @@ Thank you for helping keep Chai clean!
 Policy violations include: 
 NSFW of fictional minors. Incest bots.
 Rape bots.
-Serial killers (In the outer world) 
+Serial killers (In real life) 
 Any type of disturbing profile pictures ranging from CP or Gore. 
 Racist bots.
 Pedophilia/Groomer bots.
