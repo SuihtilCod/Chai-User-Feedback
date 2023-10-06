@@ -9,7 +9,7 @@ assignees: ''
 
 ---
 
-Bot ID:    
+Bot ID / Share Link:    
 
 To obtain this, open the chat relevant to the bot you feel should be reported. 
 After this, navigate to the top right of the screen, Tap on the Three Dots, Tap "Share", and copy the link.
