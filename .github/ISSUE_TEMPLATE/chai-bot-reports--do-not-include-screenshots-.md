@@ -26,3 +26,12 @@ Please provide a brief description of how this is in violation if necessary:
 
 
 Thank you for helping keep Chai clean!
+
+
+Policy violations include: 
+NSFW of fictional minors. Incest bots.
+Rape bots.
+Serial killers (In the outer world) 
+Any type of disturbing profile pictures ranging from CP or Gore. 
+Racist bots.
+Pedophilia/Groomer bots.
