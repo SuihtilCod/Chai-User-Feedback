@@ -15,7 +15,7 @@ Bug report template
 
 * Chai App Version:
 
-* Login Type:
+* Login Type: 
 
 
 --
@@ -28,7 +28,7 @@ Bug report template
 
 --
 
-* Frequency of occurance: 
+* Frequency of occurrence: 
 
 * Expected behavior:
 
