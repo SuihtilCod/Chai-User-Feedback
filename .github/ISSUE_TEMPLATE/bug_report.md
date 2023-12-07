@@ -1,13 +1,4 @@
----
-name: Bug report
-about: Create a report to help us improve Chai
-title: ''
-labels: ''
-assignees: ''
-
----
-
-Bug report template
+<!-- Bug report template -->
 
 =User information=
 
@@ -24,7 +15,7 @@ Bug report template
 
 
 * UserID:
-(Optional / please note this helps devs fix issues much faster, and without it may result in the whatever bug being reported going undiscovered for longer.)
+<!-- (Optional / please note this helps devs fix issues much faster, and without it may result in the whatever bug being reported going undiscovered for longer.) -->
 
 --
 
@@ -42,17 +33,7 @@ Bug report template
 =Provide Screenshots if possible=
 
 
-
-
-
-
-
-
-
-
-To obtain your User ID:
-
-Step 1: Open Chai
+<!-- Step 1: Open Chai
 Step 2: Navigate over to your Account tab.
 Step 3: Inside of your Account tab - click on "Settings", which can be found at the bottom of your Accounts Tab.
 Step 4: Inside "Settings", you will find your User ID. You can tap on this to easily copy it.
@@ -64,4 +45,4 @@ Step 2: Navigate to the chat relevant to the bot you feel should be reported / i
 Step 3: Navigate to the top right of the screen, Tap on the Three Dots. 
 Step 4: Tap "Share" and copy the link.
 
-Example: chai.ml/chat/share/_bot_1122334455...
+Example: chai.ml/chat/share/_bot_1122334455... -->
