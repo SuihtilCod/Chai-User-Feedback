@@ -1,4 +1,13 @@
-<!-- Bug report template -->
+---
+name: Bug report
+about: Create a report to help us improve Chai
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+Bug report template
 
 =User information=
 
