@@ -42,7 +42,9 @@ Bug report template
 =Provide Screenshots if possible=
 
 
-<!-- Step 1: Open Chai
+<!--To obtain Bot ID / Share Link
+
+Step 1: Open Chai
 Step 2: Navigate over to your Account tab.
 Step 3: Inside of your Account tab - click on "Settings", which can be found at the bottom of your Accounts Tab.
 Step 4: Inside "Settings", you will find your User ID. You can tap on this to easily copy it.
