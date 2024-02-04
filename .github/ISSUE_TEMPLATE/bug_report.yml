@@ -1,63 +1,125 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: Bug / Issue Report
+description: Form for reporting bugs and issues
+title: ""
+labels: ""
+assignees: ""
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        Create a report to help us improve Chai!
+  - type: markdown
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-    validations:
-      required: true
+      value: |
+        ### User Information
+	#### OS, App, and Account
   - type: dropdown
-    id: version
+    id: os
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Operating System (OS)
+      description: What operating system is your phone or tablet running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - iOS / iPadOS
+        - AndroidOS
       default: 0
     validations:
       required: true
+  - type: input
+    id: chai-ver
+    attributes:
+      label: Chai App Version
+      description: What version of the Chai app are you using?<br>You can find this under "Profile" -> "Settings" -> "App Version".
+      placeholder: #.#.### (Android) or ########.#.# (iOS)
+    validations:
+      required: true
   - type: dropdown
-    id: browsers
+    id: login
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Login Type
+      description: How are you logging into the Chai app?
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Apple ID (iOS-only)
+        - Google
+	- Facebook
+      default: 1
+    validations:
+      required: true
+  - type: dropdown
+    id: subscription
+    attributes:
+      label: Account Type
+      description: (Optional) What type of subscription do you currently have?
+      options:
+        - 
+        - Free Account
+        - Premium Account
+	- Ultra Account
+	- Not applicable
+      default: 0
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        #### Identification
+  - type: input
+    id: botid
+    attributes:
+      label: What is the bot's ID?
+      description: This is the "https://chai.ml" URL for the bot. You can find it under "Share" -> "Copy" in any bot.<br>You can also type answers such as "not applicable" or "affects all bots" if you prefer.
+      placeholder: https://chai.ml/chat/share/_bot_12345678-90ab-cdef-ghij-jlmnopqrstuv
+    validations:
+      required: true
+  - type: input
+    id: userid
+    attributes:
+      label: What is your user ID?
+      description: You can find this under "Profile" -> "Settings" -> "User ID".<br>You can also type answers such as "not applicable" or "affects all users" if you prefer.
+      placeholder: 1234567890abcdefghijklmnopqr                   
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        <small>Please note that while optional, this helps devs fix issues much faster, and without it may result in the whatever bug being reported going undiscovered for longer.</small>
+	
+	#### Details of Issue
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency of Occurrence
+      description: How often does this issue happen?
+      options:
+        - Always
+        - Frequently
+	- Occasionally
+	- Rarely
+	- Not applicable
+      default: 2
+    validations:
+      required: true
+  - type: input
+    id: expectation
+    attributes:
+      label: Expected Behavior
+      description: What do you expect to happen when doing this task?
+    validations:
+      required: true
+  - type: input
+    id: actuality
+    attributes:
+      label: Actual Behavior
+      description: What is actually happening when doing this task?
+    validations:
+      required: true
   - type: textarea
-    id: logs
+    id: more-info
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Additional Information
+      description: (Optional) Do you have any additional information about this bug or issue?
+    validations:
+      required: false
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: |
+        Once again, thank you for taking the time to submit this report!
