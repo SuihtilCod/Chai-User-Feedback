@@ -17,7 +17,6 @@ body:
       options:
         - iOS / iPadOS
         - AndroidOS
-      default: 0
     validations:
       required: true
   - type: input
@@ -37,21 +36,17 @@ body:
         - Apple ID (iOS-only)
         - Google
         - Facebook
-      default: 1
     validations:
       required: true
   - type: dropdown
     id: subscription
     attributes:
       label: Account Type
-      description: (Optional) What type of subscription do you currently have?
+      description: What type of subscription do you currently have, if applicable?<br>Please select "none" if you prefer not to answer.
       options:
-        - 
-        - Free Account
-        - Premium Account
-        - Ultra Account
+        - Premium
+        - Ultra
         - Not applicable
-      default: 0
     validations:
       required: false
   - type: markdown
@@ -91,7 +86,6 @@ body:
         - Occasionally
         - Rarely
         - Not applicable
-      default: 2
     validations:
       required: true
   - type: input
@@ -112,14 +106,6 @@ body:
     id: more-info
     attributes:
       label: Additional Information
-      description: (Optional) Do you have any additional information about this bug or issue?
+      description: Do you have any additional information about this bug or issue?
     validations:
       required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
