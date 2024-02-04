@@ -8,8 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### User Information
-        #### OS, App, and Account
+        ## User Information
+        ### OS, App, and Account
   - type: dropdown
     id: os
     attributes:
@@ -58,7 +58,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Identification
+        ### Identification
   - type: input
     id: botid
     attributes:
@@ -80,7 +80,7 @@ body:
       value: |
         <small>Please note that while optional, this helps devs fix issues much faster, and without it may result in the whatever bug being reported going undiscovered for longer.</small>
         
-        #### Details of Issue
+        ### Details of Issue
   - type: dropdown
     id: frequency
     attributes:
