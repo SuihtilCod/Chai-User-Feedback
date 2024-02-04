@@ -1,8 +1,5 @@
 name: Bug / Issue Report
 description: Form for reporting bugs and issues
-title: ""
-labels: ""
-assignees: ""
 body:
   - type: markdown
     attributes:
