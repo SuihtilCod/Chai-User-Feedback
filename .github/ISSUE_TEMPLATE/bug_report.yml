@@ -12,7 +12,7 @@ body:
     attributes:
       value: |
         ### User Information
-	#### OS, App, and Account
+        #### OS, App, and Account
   - type: dropdown
     id: os
     attributes:
@@ -40,7 +40,7 @@ body:
       options:
         - Apple ID (iOS-only)
         - Google
-	- Facebook
+        - Facebook
       default: 1
     validations:
       required: true
@@ -53,8 +53,8 @@ body:
         - 
         - Free Account
         - Premium Account
-	- Ultra Account
-	- Not applicable
+        - Ultra Account
+        - Not applicable
       default: 0
     validations:
       required: false
@@ -82,8 +82,8 @@ body:
     attributes:
       value: |
         <small>Please note that while optional, this helps devs fix issues much faster, and without it may result in the whatever bug being reported going undiscovered for longer.</small>
-	
-	#### Details of Issue
+        
+        #### Details of Issue
   - type: dropdown
     id: frequency
     attributes:
@@ -92,9 +92,9 @@ body:
       options:
         - Always
         - Frequently
-	- Occasionally
-	- Rarely
-	- Not applicable
+        - Occasionally
+        - Rarely
+        - Not applicable
       default: 2
     validations:
       required: true
@@ -119,7 +119,11 @@ body:
       description: (Optional) Do you have any additional information about this bug or issue?
     validations:
       required: false
-  - type: markdown
+  - type: checkboxes
+    id: terms
     attributes:
-      value: |
-        Once again, thank you for taking the time to submit this report!
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
