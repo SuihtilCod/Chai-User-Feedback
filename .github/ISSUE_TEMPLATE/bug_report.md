@@ -34,6 +34,8 @@ Chai Bug Report
      You can also say "not applicable" or "affects all users" if you prefer. 
      Please note that while optional, this helps developers fix issues much faster.
      Without it, the bug being reported may go undiscovered for slightly longer. -->
+* AI Model: 
+<!-- EXPECTED ANSWERS: "v6", "v7", "Chaiverse" -->
 
 ### Details of Issue
 * Frequency of occurrence: 
